@@ -100,7 +100,7 @@ class RelicFunctions {
 		$particlesEnabled = $this->cfg["particles-enabled"] ?? true;
 		if($particlesEnabled === true){
 			$this->sendCorrespondingParticles($player, "open");
-			$player->sendMessage("§l§8(§a!§8)§r§7 Opening the artifact!")
+			$player->sendMessage("§l§8(§a!§8)§r§7 Opening the artifact!");
 		}
 	}
 
